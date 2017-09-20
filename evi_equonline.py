@@ -11,6 +11,7 @@ import pyspark.sql.functions as func
 ########################  predefined arguments  ###########################
 # sparkURL = 'spark://10.100.0.72:7077'
 
+'''
 name_string = "Test_Calculate"
 conf = SparkConf() \
     .setAppName(name_string) \
@@ -31,6 +32,8 @@ conf = SparkConf() \
     .set("spark.cassandra.input.fetch.size_in_rows", 100000)
 sc = SparkContext(conf=conf)
 spark = SparkSession(sc)
-
+'''
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+print '#############','hehe','##############'
