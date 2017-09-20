@@ -36,4 +36,5 @@ spark = SparkSession(sc)
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-print '#############','hehe','##############'
+for i in range(1,4):
+    print '##########  ',i,':  #########','  hehe  '
